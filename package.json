@@ -1,0 +1,14 @@
+{
+  "name": "recursion-backtracking-dp",
+  "version": "1.0.0",
+  "description": "Algo Playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Dusan Trtica",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
