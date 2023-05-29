@@ -21,11 +21,9 @@ const randomInRange = (start, end) => {
     return Math.floor(Math.random() * (end - start));
 }
 
-const kth = (items, k, start = 0, end = items.length) => {
-    const pivotIndex = Math.floor(Math.random() * (end - start));
-    const pivotIndexAfterPartition = partition(items, pivotIndex, start, end - 1)
-    console.log({ pivotIndex, pivotIndexAfterPartition })
-    console.log('array after part: ', items);
+const kth = (items, k, start = 0, end = items.length - 1) => {
+    const pivotIndex = Math.floor(Math.random() * (end - start)+start);
+    const pivotIndexAfterPartition = partition(items, pivotIndex, start, end)
 
     if (pivotIndexAfterPartition === k) {
         return items[pivotIndexAfterPartition]
