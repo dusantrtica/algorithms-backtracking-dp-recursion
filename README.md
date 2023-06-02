@@ -10,3 +10,7 @@ Random assignments and popular algorithms implementation in Javascript
  
 ## selection algorithms
  - k-th smallest number in an array O(N) on average
+
+## backtracking
+ - N Queens problem
+ 
