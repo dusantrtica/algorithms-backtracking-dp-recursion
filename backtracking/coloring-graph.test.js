@@ -1,7 +1,7 @@
 const colorGraph = (graph, numberOfColors) => {
     const n = graph.length;
     allColors = Array(numberOfColors).fill(0).map((_, index) => index);
-    const vertexColors = Array(n).fill(-1); // -1 means no color has chosen yet
+    const vertexColors = Array(n).fill(-1); // -1 means no color has been set yet
 
     vertexColors[0] = 0; // set 1st color to 1st vertex
 
