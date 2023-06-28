@@ -4,7 +4,7 @@
   "description": "Algo Playground",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "author": "Dusan Trtica",
   "license": "ISC",
