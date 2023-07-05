@@ -19,3 +19,4 @@ Random assignments and popular algorithms implementation in Javascript
 - N Queens problem
 - Hamiltonian path problem
 - Coloring graph problem
+- Maze solver
