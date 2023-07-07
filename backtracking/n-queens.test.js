@@ -130,7 +130,6 @@ describe('generateEmptyTable', () => {
 describe('n-queens', () => {
     it('renders 4x4', () => {
         const table = nQueens(4, 4);
-        console.log(table);
     });
 
     it('cannot solve in 3x3 with 3 queens', () => {

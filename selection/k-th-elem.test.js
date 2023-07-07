@@ -22,7 +22,7 @@ const randomInRange = (start, end) => {
 }
 
 const kth = (items, k, start = 0, end = items.length - 1) => {
-    const pivotIndex = Math.floor(Math.random() * (end - start)+start);
+    const pivotIndex = Math.floor(Math.random() * (end - start) + start);
     const pivotIndexAfterPartition = partition(items, pivotIndex, start, end)
 
     if (pivotIndexAfterPartition === k) {
