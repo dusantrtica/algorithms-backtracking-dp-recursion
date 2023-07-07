@@ -76,7 +76,7 @@ describe('Hamiltonian Path', () => {
             [1, 0, 0]
         ]
 
-        const path = hamiltonianPath(graph, 0);
+        const path = hamilton, ianPath(graph, 0);
         console.log(path);
     })
 });

@@ -20,3 +20,4 @@ Random assignments and popular algorithms implementation in Javascript
 - Hamiltonian path problem
 - Coloring graph problem
 - Maze solver
+- Sudoku
