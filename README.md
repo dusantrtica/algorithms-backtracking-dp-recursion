@@ -21,3 +21,8 @@ Random assignments and popular algorithms implementation in Javascript
 - Coloring graph problem
 - Maze solver
 - Sudoku
+
+
+## Dynamic programming problems
+- Fibonacci numbers
+- Knapsack problem
