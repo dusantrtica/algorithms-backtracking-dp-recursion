@@ -29,8 +29,6 @@ const hamiltonianPath = (graph, start) => {
     } else {
         return null;
     }
-
-
 }
 
 describe('Hamiltonian Path', () => {
@@ -43,6 +41,7 @@ describe('Hamiltonian Path', () => {
 
         const path = hamiltonianPath(graph, 0);
         console.log(path);
+        expect(path).toBeTruthy();
     });
 
     it('calculates path from the middle node', () => {
@@ -54,6 +53,7 @@ describe('Hamiltonian Path', () => {
 
         const path = hamiltonianPath(graph, 0);
         console.log(path);
+        expect(path).toBeTruthy();
     });
 
     it('draws an open envelope', () => {
@@ -67,16 +67,18 @@ describe('Hamiltonian Path', () => {
 
         const path = hamiltonianPath(graph, 0);
         console.log(path);
+        expect(path).toBeTruthy();
     });
 
-    it('calculates a path from th emiddle node', () => {
+    it('calculates a path from the middle node', () => {
         const graph = [
             [0, 1, 1],
             [1, 0, 0],
             [1, 0, 0]
         ]
 
-        const path = hamilton, ianPath(graph, 0);
+        const path = hamiltonianPath(graph, 0);
         console.log(path);
+        expect(path).toBeFalsy();
     })
 });
