@@ -26,6 +26,7 @@ Random assignments and popular algorithms implementation in Javascript
 
 - Fibonacci numbers
 - Knapsack problem
+- Longest Common Subsequence
 
 - Bin Packing problem
 - Merge Sort
