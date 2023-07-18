@@ -22,7 +22,10 @@ Random assignments and popular algorithms implementation in Javascript
 - Maze solver
 - Sudoku
 
-
 ## Dynamic programming problems
+
 - Fibonacci numbers
 - Knapsack problem
+
+- Bin Packing problem
+- Merge Sort
