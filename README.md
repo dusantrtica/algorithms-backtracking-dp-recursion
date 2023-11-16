@@ -30,3 +30,7 @@ Random assignments and popular algorithms implementation in Javascript
 
 - Bin Packing problem
 - Merge Sort
+
+## Substring Search Algorithms
+
+- Brute force
