@@ -1,3 +1,11 @@
+/**
+ * Given the array, and K > 0 transform it so that
+ * every k or more consectuive occurence of the same element is erased
+ * E.g. array: 1,1,2,2,2,2,1,3,4,4,5,5,5,4,4,3,2,1,1,1 =>
+ * 1,1,(2 is removed 1, 3, 4, 4, (5 is removed), 4, 4, 3, 2 =>
+ * 3, 3, 2
+ */
+
 const compressConsecutiveSameNumbers = (input = [], k = 0) => {
   const queue = []
   const n = input.length
