@@ -5,7 +5,7 @@ const postfixOrderFrom = (prefix = '', infix = '') => {
   const root = prefix[0]
   const leftSubtreeLength = infix.indexOf(root)
 
-  const leftSubtreePrefix = prefix.substring(1, leftSubtreeLength)
+  const leftSubtreePrefix = prefix.substring(1, leftSubtreeLength + 1)
   const leftSubtreeInfix = infix.substring(0, leftSubtreeLength)
 
   const rightSubtreePrefix = prefix.substring(1 + leftSubtreeLength)
